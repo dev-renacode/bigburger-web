@@ -7,7 +7,7 @@ import phone from "../../assets/icons/phone.svg";
 const MobileHeader = () => {
   const navLinks = [
     {
-      label: "Inicio",
+      label: "Home",
       href: "#",
       icon: home,
     },
@@ -22,19 +22,29 @@ const MobileHeader = () => {
       icon: promo,
     },
     {
-      label: "Contacto",
+      label: "Contact",
       href: "#",
       icon: phone,
     },
   ];
 
   return (
-    <header className="bg-dark-details fixed w-full h-28 bottom-0 flex flex-col items-center">
+    <header
+      className="
+      bg-dark-details/80 
+      fixed w-full h-28 bottom-0 
+      flex flex-col items-center
+      backdrop-blur-xl
+    "
+    >
       <img className="w-40 h-auto absolute bottom-20" src={logo} alt="" />
-      <ul className="flex gap-8 justify-center items-end h-full pb-4 font-semibold text-lg">
+      <ul className="flex gap-8 h-full pb-4 font-semibold text-lg justify-center items-end">
         {navLinks.map((el, i) => (
           <li key={i}>
-            <a className="flex flex-col items-center text-white hover:text-gray-300" href={el.href}>
+            <a
+              className="flex flex-col items-center text-white hover:text-gray-300"
+              href={el.href}
+            >
               <img className="w-7" src={el.icon} alt="" />
               {el.label}
             </a>
