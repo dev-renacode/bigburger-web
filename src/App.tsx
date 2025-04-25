@@ -17,7 +17,13 @@ function App() {
     <>
       <MobileHeader />
       <section className="px-3 pt-3">
-        <img className="rounded-2xl" src={heroMobile} alt="Hero image burger" />
+        <img
+          className="rounded-2xl"
+          src={heroMobile}
+          alt="Hero image burger"
+          fetchPriority="high"
+          loading="eager"
+        />
       </section>
 
       <section className="px-3 pt-20 pb-30">
