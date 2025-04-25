@@ -21,8 +21,8 @@ function App() {
           className="rounded-2xl"
           src={heroMobile}
           alt="Hero image burger"
-          fetchPriority="high"
           loading="eager"
+          fetchPriority="high"
         />
       </section>
 
