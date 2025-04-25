@@ -1,4 +1,4 @@
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo.webp";
 import home from "../../assets/icons/home.svg";
 import book from "../../assets/icons/book.svg";
 import promo from "../../assets/icons/promo.svg";
