@@ -17,7 +17,7 @@ function App() {
     <>
       <MobileHeader />
       <section className="px-3 pt-3">
-        <img className="rounded-2xl" src={heroMobile} alt="" />
+        <img className="rounded-2xl" src={heroMobile} alt="Hero image burger" />
       </section>
 
       <section className="px-3 pt-20 pb-30">

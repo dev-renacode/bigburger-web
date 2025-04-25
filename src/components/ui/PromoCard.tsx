@@ -18,7 +18,11 @@ const PromoCard = ({
   const finalPrice = `${(originalPrice * (1 - discount / 100)).toFixed(2)}`;
   return (
     <article>
-      <img className="w-full h-auto rounded-2xl pb-2" src={imgSrc} alt="" />
+      <img
+        className="w-full h-auto rounded-2xl pb-2"
+        src={imgSrc}
+        alt="burger promos"
+      />
       <div className="flex flex-col gap-3">
         <div className="space-y-2">
           <div className="flex items-center gap-4">
