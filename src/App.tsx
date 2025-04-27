@@ -18,10 +18,9 @@ function App() {
       <MobileHeader />
       <section className="px-3 pt-3">
         <img
-          className=" rounded-2xl"
+          className="rounded-2xl"
           src={heroMobile}
           alt="Hero image burger"
-          loading="eager"
           fetchPriority="high"
         />
       </section>
