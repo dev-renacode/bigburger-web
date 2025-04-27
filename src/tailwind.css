@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-details: #0f1010;
+}
