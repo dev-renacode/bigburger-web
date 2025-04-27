@@ -1,11 +1,66 @@
 @import "tailwindcss";
 
-:root {
+html {
   font-family: "Bricolage Grotesque", sans-serif;
   background-color: #1d1d1d;
   color-scheme: light dark;
 }
-
 @theme {
   --color-dark-details: #0f1010;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* Un valor para extra bold, puedes ajustarlo */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* Un valor para extra bold, puedes ajustarlo */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-ExtraLight.ttf') format('truetype');
+  font-weight: 200; /* Un valor para extra light */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-Light.ttf') format('truetype');
+  font-weight: 300; /* Un valor para light */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-Medium.ttf') format('truetype');
+  font-weight: 500; /* Un valor para medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-Regular.ttf') format('truetype');
+  font-weight: normal; /* o 400 para regular */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  src: url('/src/assets/fonts/BricolageGrotesque_24pt-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Un valor para semi-bold */
+  font-style: normal;
+  font-display: swap;
 }
