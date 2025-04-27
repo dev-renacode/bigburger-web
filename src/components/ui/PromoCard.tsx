@@ -8,6 +8,10 @@ interface Props {
   popular: boolean;
 }
 
+const calculateFinalPrice = (originalPrice: number, discount: number): string => {
+  return `${(originalPrice * (1 - discount / 100)).toFixed(2)}`;
+};
+
 const PromoCard = ({
   imgSrc,
   name,
@@ -15,7 +19,7 @@ const PromoCard = ({
   discount,
   popular,
 }: Props) => {
-  const finalPrice = `${(originalPrice * (1 - discount / 100)).toFixed(2)}`;
+  
   return (
     <article>
       <img
@@ -34,7 +38,7 @@ const PromoCard = ({
           </div>
           <div className="">
             <div className="flex gap-2 items-center">
-              <p className="font-medium text-white text-2xl">${finalPrice}</p>
+              <p className="font-medium text-white text-2xl">${calculateFinalPrice(originalPrice, discount)}</p>
               <p className="font-medium text-green-200 pt-1 underline">
                 {discount}% OFF
               </p>
