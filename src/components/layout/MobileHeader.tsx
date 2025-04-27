@@ -4,30 +4,30 @@ import book from "../../assets/icons/book.svg";
 import promo from "../../assets/icons/promo.svg";
 import phone from "../../assets/icons/phone.svg";
 
-const MobileHeader = () => {
-  const navLinks = [
-    {
-      label: "Home",
-      href: "#",
-      icon: home,
-    },
-    {
-      label: "Menu",
-      href: "#",
-      icon: book,
-    },
-    {
-      label: "Promo",
-      href: "#",
-      icon: promo,
-    },
-    {
-      label: "Contact",
-      href: "#",
-      icon: phone,
-    },
-  ];
+const navLinks = [
+  {
+    label: "Home",
+    href: "#",
+    icon: home,
+  },
+  {
+    label: "Menu",
+    href: "#",
+    icon: book,
+  },
+  {
+    label: "Promo",
+    href: "#",
+    icon: promo,
+  },
+  {
+    label: "Contact",
+    href: "#",
+    icon: phone,
+  },
+];
 
+const MobileHeader = () => {
   return (
     <header
       className="
