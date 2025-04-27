@@ -22,6 +22,8 @@ function App() {
           src={heroMobile}
           alt="Hero image burger"
           fetchPriority="high"
+          width={900}
+          height={900}
         />
       </section>
 

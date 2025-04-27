@@ -23,6 +23,8 @@ const PromoCard = ({
         src={imgSrc}
         alt="burger promos"
         fetchPriority="high"
+        width={900}
+        height={426}
       />
       <div className="flex flex-col gap-3">
         <div className="space-y-2">
