@@ -16,14 +16,14 @@ const navLinks = [
     icon: promo,
   },
   {
-    label: "Feedback",
-    href: "#feedback",
-    icon: book,
-  },
-  {
     label: "Contact",
     href: "#contact",
     icon: phone,
+  },
+  {
+    label: "Feedback",
+    href: "#feedback",
+    icon: book,
   },
 ];
 
