@@ -2,7 +2,7 @@ import TestimonialsCard from "../ui/TestimonialsCard";
 
 const Feedback = () => {
   return (
-    <section className="pb-50 space-y-6 px-3">
+    <section className="pb-50 space-y-6 px-3" id="feedback">
       <div className="text-center space-y-1">
         <h2 className="text-4xl font-bold">Our Happy Customers</h2>
         <p className="text-yellow-100">

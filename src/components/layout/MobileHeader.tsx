@@ -11,18 +11,18 @@ const navLinks = [
     icon: home,
   },
   {
-    label: "Menu",
-    href: "#",
-    icon: book,
-  },
-  {
-    label: "Promo",
-    href: "#",
+    label: "Promos",
+    href: "#promos",
     icon: promo,
   },
   {
+    label: "Feedback",
+    href: "#feedback",
+    icon: book,
+  },
+  {
     label: "Contact",
-    href: "#",
+    href: "#contact",
     icon: phone,
   },
 ];

@@ -5,7 +5,10 @@ import instagram from "../../assets/icons/instagram.svg";
 
 const Contact = () => {
   return (
-    <section className="px-3 mb-30 flex flex-col bg-dark-details gap-5 p-14">
+    <section
+      className="px-3 mb-30 flex flex-col bg-dark-details gap-5 p-14"
+      id="contact"
+    >
       <div>
         <h2 className="font-bold text-4xl text-center pb-2">Order Now!</h2>
         <p className="text-center">

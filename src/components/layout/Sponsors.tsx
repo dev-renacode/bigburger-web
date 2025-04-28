@@ -7,7 +7,10 @@ const imgClasses = "w-40";
 
 const Sponsors = () => {
   return (
-    <section className="pb-48 flex flex-col justify-center gap-14 px-3 text-pretty">
+    <section
+      className="pb-48 flex flex-col justify-center gap-14 px-3 text-pretty"
+      id="sponsors"
+    >
       <div className="text-center">
         <h2 className="text-4xl font-bold">Made Possible By</h2>
         <p className="text-slate-400">

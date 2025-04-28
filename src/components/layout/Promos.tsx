@@ -6,7 +6,7 @@ import hellishBite from "../../assets/images/hellishBite.webp";
 
 const Promos = () => {
   return (
-    <section className="px-3 pt-20 pb-30">
+    <section className="px-3 pt-20 pb-30" id="promos">
       <div className="pb-11 text-center">
         <h2 className="font-bold text-4xl pb-2">Promos</h2>
         <p className="text-yellow-100">
