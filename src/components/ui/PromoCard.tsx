@@ -24,6 +24,8 @@ const PromoCard = ({
       <img
         className="w-full h-auto rounded-2xl pb-2"
         src={imgSrc}
+        width={900}
+        height={426}
         alt="burger promos"
       />
       <div className="flex flex-col gap-3">

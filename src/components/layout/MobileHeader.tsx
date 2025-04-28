@@ -37,7 +37,13 @@ const MobileHeader = () => {
       backdrop-blur-xl
     "
     >
-      <img className="w-40 h-auto absolute bottom-20" src={logo} alt="" />
+      <img
+        className="w-40 h-auto absolute bottom-20"
+        src={logo}
+        width={200}
+        height={96}
+        alt="Logo Image BigBurger"
+      />
       <ul className="flex gap-8 h-full pb-4 font-semibold text-lg justify-center items-end">
         {navLinks.map((el, i) => (
           <li key={i}>
