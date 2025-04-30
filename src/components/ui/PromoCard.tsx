@@ -105,7 +105,7 @@ const Modal = ({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="rounded-2xl bg-dark-details/80 backdrop-blur-xl w-[80vw] h-[75vh] mb-27"
+        className="rounded-2xl bg-dark-details/80 backdrop-blur-xl w-[80vw] h-[75vh] mb-40 "
       >
         <button className="pt-2 pl-2" onClick={handleClick}>
           <img className="w-10" src={xIcon} alt="" />
@@ -118,8 +118,10 @@ const Modal = ({
           </div>
           <ul className="pt-5">
             <h4 className="font-semibold text-green-500">Ingredients:</h4>
-            {ingredients.map((el) => (
-              <li className="font-light">- {el}</li>
+            {ingredients.map((el, i) => (
+              <li key={i} className="font-light">
+                - {el}
+              </li>
             ))}
           </ul>
         </div>
