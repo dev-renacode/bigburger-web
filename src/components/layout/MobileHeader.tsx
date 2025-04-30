@@ -34,7 +34,7 @@ const MobileHeader = () => {
       bg-dark-details/80 
       fixed w-full h-28 bottom-0 
       flex flex-col items-center
-      backdrop-blur-xl
+      backdrop-blur-xl z-100
     "
     >
       <img
