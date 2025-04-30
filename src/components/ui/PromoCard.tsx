@@ -105,7 +105,7 @@ const Modal = ({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-dark-details w-[80vw] h-[75vh] mb-27"
+        className="bg-dark-details/80 backdrop-blur-xl w-[80vw] h-[75vh] mb-27"
       >
         <button onClick={handleClick}>
           <img className="w-10" src={xIcon} alt="" />
