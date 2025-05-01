@@ -34,8 +34,9 @@ const MobileHeader = () => {
       bg-dark-details/80 
       fixed w-full h-28 bottom-0 left-0
       flex flex-col items-center
-      backdrop-blur-xl z-100
+      backdrop-blur-xl z-100 
     "
+      style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       <img
         className="w-40 h-auto absolute bottom-20"
