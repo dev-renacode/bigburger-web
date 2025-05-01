@@ -3,15 +3,24 @@ import Promos from "./components/layout/Promos";
 import Contact from "./components/layout/Contact";
 import Feedback from "./components/layout/Feedback";
 import Sponsors from "./components/layout/Sponsors";
+import ScrollReveal from "./components/ui/ScrollReveal";
 
 function App() {
   return (
     <>
       <Hero />
-      <Promos />
-      <Contact />
-      <Feedback />
-      <Sponsors />
+      <ScrollReveal>
+        <Promos />
+      </ScrollReveal>
+      <ScrollReveal className="delay-300">
+        <Contact />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Feedback />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Sponsors />
+      </ScrollReveal>
     </>
   );
 }
