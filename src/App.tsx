@@ -9,10 +9,8 @@ function App() {
   return (
     <>
       <Hero />
+      <Promos />
       <ScrollReveal>
-        <Promos />
-      </ScrollReveal>
-      <ScrollReveal className="delay-300">
         <Contact />
       </ScrollReveal>
       <ScrollReveal>

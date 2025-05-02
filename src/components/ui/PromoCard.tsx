@@ -101,15 +101,17 @@ const Modal = ({
       onClick={handleClick}
       className={`${
         open ? "hidden" : "flex"
-      } fixed top-0 left-0 w-screen h-screen justify-center items-center bg-black/70`}
+      } fixed z-200 top-0 left-0 w-screen h-screen justify-center items-center bg-black/70`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="rounded-2xl bg-dark-details/80 backdrop-blur-xl w-[80vw] h-[70vh] mb-40 "
+        className="rounded-2xl bg-dark-details/80 backdrop-blur-xl w-[80vw] h-[70vh] mb-40"
       >
-        <button className="pt-2 pl-2" onClick={handleClick}>
-          <img className="w-10" src={xIcon} alt="" />
-        </button>
+        <div className="flex justify-end pr-2 pt-4">
+          <button className="" onClick={handleClick}>
+            <img className="w-10" src={xIcon} alt="" />
+          </button>
+        </div>
         <div className="px-2 flex flex-col gap-2">
           <div className="flex justify-center">
             <img className="w-56" src={pngImg} alt="" />
